@@ -18,7 +18,7 @@ jobs:
       
 
       - name: Run Stale Action
-        uses: actions/stale@v10
+        uses: gowridurgad/stale@testing-punycode-warning
         with:
           days-before-stale: 150
           days-before-close: 50
